@@ -31,3 +31,19 @@ nav a:first-child img{
     background-size: cover;
     height: 400px
 }
+.kave{
+    color: #1f5b25;
+    background-color: #fff;
+    border: 1px solid #1f5b25;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+.kave:hover{
+    box-shadow: 0px 5px 5px #1f5b25;
+}
+.kave h2{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
