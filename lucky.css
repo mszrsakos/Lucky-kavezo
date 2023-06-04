@@ -21,3 +21,6 @@ nav a:hover{
 nav a:first-child{
     font-siye: 1.5em;
 }
+nav a:first-child img{
+    width: 40px;
+}
