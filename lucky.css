@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Roboto:ital,wght@1,700&display=swap');
+
+body{
+    background-color:#f8eadb;
+}
+h1{
+    font-family: 'Fredericka the Great', cursive;
+}
+nav{
+    background-color: #1f5b25;
+    padding: 15px;
+    position: fixed;
+}
+nav a{
+    color: white;
+    margin: 15px;
+}
+nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+nav a:first-child{
+    font-siye: 1.5em;
+}
+nav a:first-child img{
+    width: 40px;
+}
+.banner{
+    background-image: url(../imgs/header.png);
+    background-position: center center;
+    background-size: cover;
+    height: 400px
+}
