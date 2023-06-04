@@ -7,5 +7,17 @@ h1{
     font-family: 'Fredericka the Great', cursive;
 }
 nav{
-    background-color: #1f5b25
+    background-color: #1f5b25;
+    padding: 15px;
+}
+nav a{
+    color: white;
+    margin: 15px;
+}
+nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+nav a:first-child{
+    font-siye: 1.5em;
 }
