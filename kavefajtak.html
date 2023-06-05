@@ -34,34 +34,83 @@
                 <h1 class="my-4">Lucky - Kávéfajták</h1>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="kave">
-                    <img src="./imgs/espresso.png" alt="" class="img-fluid">
-                    <h2>Espresso</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col mb-4">
+                <a href="#">
+              <div class="card">
+                <img src="./imgs/espresso.png" class="card-img-top" alt="Espresso">
+                <div class="card-body">
+                  <h5 class="card-title">Espresso</h5>
                 </div>
+              </div>
+              </a>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="kave">
-                    <img src="./imgs/americano.png" alt="" class="img-fluid">
-                    <h2>Americano</h2>
+            <div class="col mb-4">
+                <a href="#">
+              <div class="card">
+                <img src="./imgs/americano.png" class="card-img-top" alt="Americano">
+                <div class="card-body">
+                  <h5 class="card-title">Americano</h5>
                 </div>
+              </div>
+              </a>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="kave">
-                    <img src="./imgs/napraforgo.svg" alt="" id="napiajanlat">
-                    <img src="./imgs/cappuccino.png" alt="" class="img-fluid">
-                    <h2>Cappucino</h2>
+            <div class="col mb-4">
+                <a href="#" data-toggle="modal" data-target="#cappuccinoModal">
+              <div class="card">
+                <img src="./imgs/napraforgo.svg" alt="" id="napiajanlat">
+                <img src="./imgs/cappuccino.png" class="card-img-top" alt="Cappuccino">
+                <div class="card-body">
+                  <h5 class="card-title">Cappuccino</h5>
                 </div>
+              </div>
+              </a>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="kave">
-                    <img src="./imgs/latte.png" alt="" class="img-fluid">
-                    <h2>Latte Macchiato</h2>
+            <div class="col mb-4">
+                <a href="#">
+              <div class="card">
+                <img src="./imgs/latte.png" class="card-img-top" alt="Latte Macchiato">
+                <div class="card-body">
+                  <h5 class="card-title">Latte Macchaito</h5>
                 </div>
+              </div>
+              </a>
             </div>
-        </div>
+          </div>
+
     </div>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="cappuccinoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cappuccino</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="./imgs/cappuccino.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-sm-8">
+                    <h2>Cappuccino</h2>
+                    <p>Milliók kedvence Magyarországon. Mi több, mint 3 éve, hogy a menünkbe raktuk azóta is minden nap többen is jönnek Cappuccinot vásárolni.</p>
+                    <p> Ha még nem próbálta, itt az idő!</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-dismiss="modal">Bezárás</button>
+        </div>
+      </div>
+    </div>
+  </div>
     <div class="footer">
         <footer class="conatiner">
             <div class="row">

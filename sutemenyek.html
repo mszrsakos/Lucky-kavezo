@@ -13,19 +13,19 @@
 
 <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <a class="navbar-brand" href="./index.html">Lucky<img src="./imgs/st-patricks-day-1272034_1920.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarMenu">
-          <div class="navbar-nav">
-            <a class="nav-link" href="index.html">Főoldal</a>
-            <a class="nav-link" href="kavefajtak.html">Kávefajták</a>
-            <a class="nav-link active" href="sutemenyek.html">Sütemények</a>
-            <a class="nav-link" href="blog.html">Blog</a>
-          </div>
-        </div>
-    </nav> 
+            <a class="navbar-brand" href="./index.html">Lucky<img src="./imgs/st-patricks-day-1272034_1920.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+              <div class="navbar-nav">
+                <a class="nav-link" href="index.html">Főoldal</a>
+                <a class="nav-link active" href="kavefajtak.html">Kávefajták</a>
+                <a class="nav-link" href="sutemenyek.html">Sütemények</a>
+                <a class="nav-link" href="blog.html">Blog</a>
+              </div>
+            </div>
+    </nav>
     <div class="banner"></div>
 
     <div class="container">
@@ -34,33 +34,82 @@
                 <h1 class="my-4">Lucky - Sütemények</h1>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="kave">
-                    <img src="./imgs/vorosbarsony.jpg" alt="" class="img-fluid">
-                    <h2>Vörösbársony-torta</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col mb-4">
+                <a href="#">
+              <div class="card">
+                <img src="./imgs/vorosbarsony.jpg" class="card-img-top" alt="Vörösbársony-torta">
+                <div class="card-body">
+                  <h5 class="card-title">Vörösbársony-torta</h5>
                 </div>
+              </div>
+              </a>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="kave">
-                    <img src="./imgs/csokitorta.png" alt="" class="img-fluid">
-                    <h2>Csokis torta</h2>
+            <div class="col mb-4">
+                <a href="#">
+              <div class="card">
+                <img src="./imgs/csokitorta.png" class="card-img-top" alt="Csokis torta">
+                <div class="card-body">
+                  <h5 class="card-title">Csokis torta</h5>
                 </div>
+              </div>
+              </a>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="kave">
-                    <img src="./imgs/tiramisu.png" alt="" class="img-fluid">
-                    <h2>Tiramisu</h2>
+            <div class="col mb-4">
+                <a href="#" data-toggle="modal" data-target="#cappuccinoModal">
+              <div class="card">
+                <img src="./imgs/tiramisu.png" class="card-img-top" alt="Tiramisu">
+                <div class="card-body">
+                  <h5 class="card-title">Tiramisu</h5>
                 </div>
+              </div>
+              </a>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="kave">
-                    <img src="./imgs/citromtorta.png" alt="" class="img-fluid">
-                    <h2>Citromos torta</h2>
+            <div class="col mb-4">
+                <a href="#">
+              <div class="card">
+                <img src="./imgs/citromtorta.png" class="card-img-top" alt="Citromos torta">
+                <div class="card-body">
+                  <h5 class="card-title">Citromos torta</h5>
                 </div>
+              </div>
+              </a>
             </div>
-        </div>
+          </div>
+
     </div>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="cappuccinoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cappuccino</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="./imgs/cappuccino.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-sm-8">
+                    <h2>Cappuccino</h2>
+                    <p>Milliók kedvence Magyarországon. Mi több, mint 3 éve, hogy a menünkbe raktuk azóta is minden nap többen is jönnek Cappuccinot vásárolni.</p>
+                    <p> Ha még nem próbálta, itt az idő!</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-dismiss="modal">Bezárás</button>
+        </div>
+      </div>
+    </div>
+  </div>
     <div class="footer">
         <footer class="conatiner">
             <div class="row">
