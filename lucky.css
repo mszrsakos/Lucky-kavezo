@@ -12,6 +12,7 @@ nav{
     background-color: #1f5b25;
     padding: 15px;
     position: fixed;
+    z-index: 5;
 }
 nav a{
     color: white;
