@@ -12,20 +12,20 @@
 </head>
 
 <body>
-    <nav class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <a href="/index.html">
-                    Lucky
-                    <img src="./imgs/st-patricks-day-1272034_1920.png" alt="">
-                </a>
-                <a href="/index.html">Főoldal</a>
-                <a href="/kavefajtak.html">Kávéfajták</a>
-                <a href="/sutemenyfajtak.html">Sütemények</a>
-                <a href="/blog.html">Blog</a>
-            </div>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html">Lucky<img src="./imgs/st-patricks-day-1272034_1920.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html">Főoldal</a>
+            <a class="nav-link" href="kavefajtak.html">Kávefajták</a>
+            <a class="nav-link active" href="sutemenyek.html">Sütemények</a>
+            <a class="nav-link" href="blog.html">Blog</a>
+          </div>
         </div>
-    </nav>
+    </nav> 
     <div class="banner"></div>
 
     <div class="container">
@@ -60,6 +60,28 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="footer">
+        <footer class="conatiner">
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 offset-lg-1">
+                    <h2 class="mt3">Kapcsolat</h2>
+                    <ul>
+                        <li><img src="./imgs/house-47839.svg" alt="">Lucky Kávézó</li>
+                        <li><img src="./imgs/letter-389108.svg" alt="">luckykavezo@gmail.com</li>
+                        <li><img src="./imgs/mobile-4476728.svg" alt="">+36-2-777-77-77</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <h2 class="mt-3">Kávé Magazin</h2>
+                    <p>Iratkozzon fel a kávé magazinunkra!</p>
+                    <form>
+                        <input type="text">
+                        <input type="button" value="Feliratkozom">
+                    </form>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 
