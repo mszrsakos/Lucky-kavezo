@@ -32,21 +32,26 @@ nav a:first-child img{
 }
 
 .kave{
-    color: #1f5b25;
-    background-color: #fff;
-    border: 1px solid #1f5b25;
-    border-radius: 4px;
-    margin-bottom: 1rem;
-}
-.kave:hover{
-    box-shadow: 0px 5px 5px #1f5b25;
+    color: white;
+    background-color: black;
+    opacity: 70%;
+
 }
 .kave h2{
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-variant: small-caps;
+    opacity: 100%;
+}
+.kave h3{
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-variant: small-caps;
+    opacity: 100%s;
 }
 #napiajanlat{
     width: 40px;
@@ -64,4 +69,15 @@ footer li{
 footer li>img{
     width: 15px;
     margin-right: 10px;
+}
+.koszontes{
+    opacity: 70%;
+    width: 750px;
+    height: 500px;
+    background-color:  black;
+    
+}
+.kep{
+    width: 50%;
+    height: 50%;
 }
